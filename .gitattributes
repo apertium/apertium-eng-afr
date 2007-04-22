@@ -1,5 +1,6 @@
 * text=auto !eol
 /AUTHORS -text
+/COPYING -text
 /Makefile -text
 /apertium-en-af.af.dix -text
 /apertium-en-af.en-af.dix -text
