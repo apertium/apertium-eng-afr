@@ -1,9 +1,12 @@
 * text=auto !eol
 /AUTHORS -text
 /COPYING -text
-/Makefile -text
+/Makefile.am -text
 /apertium-en-af.af.dix -text
 /apertium-en-af.en-af.dix -text
 /apertium-en-af.en.dix -text
 /apertium-en-af.trules-af-en.xml -text
 /apertium-en-af.trules-en-af.xml -text
+/autogen.sh -text
+/configure.ac -text
+/modes.xml -text
