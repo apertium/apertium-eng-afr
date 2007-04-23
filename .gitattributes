@@ -5,6 +5,7 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/TODO -text
 /apertium-en-af.af.dix -text
 /apertium-en-af.en-af.dix -text
 /apertium-en-af.en.dix -text
