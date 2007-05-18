@@ -19,6 +19,7 @@
 /apertium-en-af.en.dix.xml -text
 /apertium-en-af.post-af.dix -text
 /apertium-en-af.post-en.dix -text
+/apertium-en-af.symbols.xml -text
 /autogen.sh -text
 /configure.ac -text
 /en-af.prob -text
