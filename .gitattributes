@@ -7,7 +7,6 @@
 /NEWS -text
 /README -text
 /TODO -text
-/af-en.prob -text
 /apertium-en-af.af-en.t1x -text
 /apertium-en-af.af-en.t2x -text
 /apertium-en-af.af-en.t3x -text
@@ -23,5 +22,4 @@
 /apertium-en-af.symbols.xml -text
 /autogen.sh -text
 /configure.ac -text
-/en-af.prob -text
 /modes.xml -text
