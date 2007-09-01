@@ -22,4 +22,5 @@
 /apertium-en-af.symbols.xml -text
 /autogen.sh -text
 /configure.ac -text
+/en-af.prob -text svneol=unset#unset
 /modes.xml -text
