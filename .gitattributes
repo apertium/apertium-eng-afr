@@ -6,6 +6,7 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/REGRESSION -text
 /TODO -text
 /af-en.prob -text
 /apertium-en-af.af-en.t1x -text
