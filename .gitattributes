@@ -27,5 +27,6 @@
 /configure.ac -text
 /en-af.prob -text svneol=unset#unset
 /modes.xml -text
+/paramedic_list.sorted.txt -text
 tests/Arctic-af.txt -text
 tests/Arctic-en.txt -text
