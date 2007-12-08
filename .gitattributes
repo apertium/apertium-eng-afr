@@ -26,6 +26,7 @@
 /autogen.sh -text
 /configure.ac -text
 /en-af.prob -text svneol=unset#unset
+/find-missing-monodix-entries.py -text
 /modes.xml -text
 /paramedic_list.sorted.txt -text
 /paramedic_wordlist_en_bidix_not_monodix_redux.europarl-freq.txt -text
