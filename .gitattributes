@@ -3,6 +3,7 @@
 /AUTHORS -text
 /COPYING -text
 /ChangeLog -text
+/Makefile-parser.am -text
 /Makefile.am -text
 /NEWS -text
 /README -text
@@ -19,6 +20,7 @@
 /apertium-en-af.en-af.t2x -text
 /apertium-en-af.en-af.t3x -text
 /apertium-en-af.en.dix.xml -text
+/apertium-en-af.en.reg -text
 /apertium-en-af.en.tsx -text
 /apertium-en-af.post-af.dix -text
 /apertium-en-af.post-en.dix -text
@@ -26,6 +28,7 @@
 /autogen.sh -text
 /configure.ac -text
 /en-af.prob -text svneol=unset#unset
+/fix-scol.rb -text
 /modes.xml -text
 /paramedic_list.sorted.txt -text
 /paramedic_wordlist_en_bidix_not_monodix_redux.europarl-freq.txt -text
