@@ -10,6 +10,7 @@
 /REGRESSION -text
 /TODO -text
 /af-en.prob -text
+/af-en.unsupervised.make -text
 /apertium-en-af.af-en.t1x -text
 /apertium-en-af.af-en.t2x -text
 /apertium-en-af.af-en.t3x -text
@@ -28,6 +29,7 @@
 /autogen.sh -text
 /configure.ac -text
 /en-af.prob -text svneol=unset#unset
+/en-af.unsupervised.make -text
 /fix-scol.rb -text
 /modes.xml -text
 /paramedic_list.sorted.txt -text
