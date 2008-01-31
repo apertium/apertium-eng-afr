@@ -37,3 +37,4 @@
 /paramedic_wordlist_en_bidix_not_monodix_redux.txt -text
 tests/Arctic-af.txt -text
 tests/Arctic-en.txt -text
+/todo_checking.freq.txt -text
