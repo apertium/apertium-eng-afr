@@ -28,13 +28,13 @@
 /apertium-en-af.symbols.xml -text
 /autogen.sh -text
 /configure.ac -text
+dev/paramedic_list.sorted.txt -text
+dev/paramedic_wordlist_en_bidix_not_monodix_redux.europarl-freq.txt -text
+dev/paramedic_wordlist_en_bidix_not_monodix_redux.txt -text
+dev/todo_checking.freq.txt -text
 /en-af.prob -text svneol=unset#unset
 /en-af.unsupervised.make -text
 /fix-scol.rb -text
 /modes.xml -text
-/paramedic_list.sorted.txt -text
-/paramedic_wordlist_en_bidix_not_monodix_redux.europarl-freq.txt -text
-/paramedic_wordlist_en_bidix_not_monodix_redux.txt -text
 tests/Arctic-af.txt -text
 tests/Arctic-en.txt -text
-/todo_checking.freq.txt -text
