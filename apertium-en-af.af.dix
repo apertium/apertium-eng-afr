@@ -6141,6 +6141,7 @@
     <e lm="koop"><par n="P__ge"/><i>koop</i><par n="breek__vblex"/></e>
     <e lm="koppel"><par n="P__ge"/><i>koppel</i><par n="breek__vblex"/></e>
     <e lm="kwalifiseer"><par n="P__ge"/><i>kwalifiseer</i><par n="breek__vblex"/></e>
+    <e lm="ioniseer"><par n="P__ge"/><i>ioniseer</i><par n="breek__vblex"/></e>
     <e lm="land"><par n="P__ge"/><i>land</i><par n="breek__vblex"/></e>
     <e lm="leef"><par n="P__ge"/><i>leef</i><par n="breek__vblex"/></e>
     <e lm="leer"><par n="P__ge"/><i>leer</i><par n="breek__vblex"/></e>
@@ -18220,6 +18221,19 @@
     <e lm="ontdekkingsgerig"><i>ontdekkingsgerig</i><par n="sleg__adj"/></e> <!-- bare -->
 
     <e lm="koel"><i>koel</i><par n="arm__adj"/></e>
+    <!-- Check! -->
+    <e lm="standaardiseer"><par n="P__ge"/><i>standaardiseer</i><par n="breek__vblex"/></e>
+    <e lm="sistematiseer"><par n="P__ge"/><i>sistematiseer</i><par n="breek__vblex"/></e>
+    <e lm="menstrueer"><par n="P__ge"/><i>menstrueer</i><par n="breek__vblex"/></e>
+    <e lm="adverterteer"><par n="P__ge"/><i>adverterteer</i><par n="breek__vblex"/></e>
+    <e lm="spekuleer"><par n="P__ge"/><i>spekuleer</i><par n="breek__vblex"/></e>
+    <e lm="identifiseer"><par n="P__ge"/><i>identifiseer</i><par n="breek__vblex"/></e>
+    <e lm="informeer"><par n="P__ge"/><i>informeer</i><par n="breek__vblex"/></e>
+    <e lm="segregeer"><par n="P__ge"/><i>segregeer</i><par n="breek__vblex"/></e>
+    <e lm="sekulariseer"><par n="P__ge"/><i>sekulariseer</i><par n="breek__vblex"/></e>
+    <e lm="simboliseer"><par n="P__ge"/><i>simboliseer</i><par n="breek__vblex"/></e>
+    <e lm="simuleer"><par n="P__ge"/><i>simuleer</i><par n="breek__vblex"/></e>
+    <e lm="simplifiseer"><par n="P__ge"/><i>simplifiseer</i><par n="breek__vblex"/></e>
 
 </section>
 

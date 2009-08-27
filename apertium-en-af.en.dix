@@ -63775,7 +63775,16 @@
 
     <e lm="characterize"><p><l>characteriz</l><r>characteris</r></p><par n="liv/e__vblex"/></e>
 
-
+    <e lm="standardise"><i>standardis</i><par n="liv/e__vblex"/></e>
+    <e lm="systematise"><i>systematis</i><par n="liv/e__vblex"/></e>
+    <e lm="menstruate"><i>menstruat</i><par n="liv/e__vblex"/></e>
+    <e lm="segregate"><i>segregat</i><par n="liv/e__vblex"/></e>
+    <e lm="secularise"><i>secularis</i><par n="liv/e__vblex"/></e>
+    <e lm="symbolise"><i>symbolis</i><par n="liv/e__vblex"/></e>
+    <e lm="standardize"><p><l>standardiz</l><r>standardis</r></p><par n="liv/e__vblex"/></e>
+    <e lm="systematize"><p><l>systematiz</l><r>systematis</r></p><par n="liv/e__vblex"/></e>
+    <e lm="secularize"><p><l>seculariz</l><r>secularis</r></p><par n="liv/e__vblex"/></e>
+    <e lm="symbolize"><p><l>symboliz</l><r>symbolis</r></p><par n="liv/e__vblex"/></e>
 
 
 

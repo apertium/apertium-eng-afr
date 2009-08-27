@@ -5012,6 +5012,7 @@
     <e><p><l>recent<s n="adj"/></l><r>onlangs<s n="adj"/></r></p></e>
     <e><p><l>dangerous<s n="adj"/></l><r>gevaarlik<s n="adj"/></r></p></e>
     <e><p><l>difficult<s n="adj"/></l><r>moeilik<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>hard<s n="adj"/><s n="sint"/></l><r>moeilik<s n="adj"/></r></p></e>
     <e><p><l>famous<s n="adj"/></l><r>beroemd<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>absolute<s n="adj"/></l><r>absoluut<s n="adj"/></r></p></e>
     <e><p><l>certain<s n="adj"/></l><r>seker<s n="adj"/></r></p></e>
@@ -5863,6 +5864,7 @@
     <e><p><l>remain<s n="vblex"/></l><r>bly<s n="vblex"/></r></p></e>
     <e><p><l>arm<s n="vblex"/></l><r>wapen<s n="vblex"/></r></p></e>
     <e><p><l>localise<s n="vblex"/></l><r>lokaliseer<s n="vblex"/></r></p></e>
+    <e><p><l>ionise<s n="vblex"/></l><r>ioniseer<s n="vblex"/></r></p></e>
 
 
 
@@ -7093,6 +7095,19 @@
         end Friedel
      -->
 
+    <!-- Check -->
+    <e><p><l>standardise<s n="vblex"/></l><r>standaardiseer<s n="vblex"/></r></p></e>
+    <e><p><l>systematise<s n="vblex"/></l><r>sistematiseer<s n="vblex"/></r></p></e>
+    <e><p><l>menstruate<s n="vblex"/></l><r>menstrueer<s n="vblex"/></r></p></e>
+    <e><p><l>advertise<s n="vblex"/></l><r>adverterteer<s n="vblex"/></r></p></e>
+    <e><p><l>speculate<s n="vblex"/></l><r>spekuleer<s n="vblex"/></r></p></e>
+    <e><p><l>identify<s n="vblex"/></l><r>identifiseer<s n="vblex"/></r></p></e>
+    <e><p><l>inform<s n="vblex"/></l><r>informeer<s n="vblex"/></r></p></e>
+    <e><p><l>segregate<s n="vblex"/></l><r>segregeer<s n="vblex"/></r></p></e>
+    <e><p><l>secularise<s n="vblex"/></l><r>sekulariseer<s n="vblex"/></r></p></e>
+    <e><p><l>symbolise<s n="vblex"/></l><r>simboliseer<s n="vblex"/></r></p></e>
+    <e><p><l>simulate<s n="vblex"/></l><r>simuleer<s n="vblex"/></r></p></e>
+    <e><p><l>simplify<s n="vblex"/></l><r>simplifiseer<s n="vblex"/></r></p></e>
     
     <!-- Pronouns -->
 
