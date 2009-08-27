@@ -226,7 +226,13 @@
       <tags-item tags="det.def.sp"/>
       <label-item label="PREADV"/>
     </sequence>
-</def-mult>
+  </def-mult>
+  <def-mult name="GESER" closed="true">  
+    <sequence>
+      <label-item label="GE"/>
+      <tags-item tags="vbser.inf"/>
+    </sequence>
+  </def-mult>
 
 </tagset>
 
@@ -515,7 +521,11 @@
 	<label-item label="DET"/>
       </label-set>
     </enforce-after>
-   
+    <enforce-after label="GESER">
+      <label-set>
+        <label-item label="VHAVEPAST"/>
+      </label-set>
+    </enforce-after>   
  </enforce-rules>
 
 
