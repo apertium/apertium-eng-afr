@@ -40,6 +40,18 @@
       <cat-item tags="prn.tn.*"/>
       <cat-item tags="prn.tn"/>
     </def-cat>
+    <def-cat n="verbhaver">
+      <cat-item tags="vbhaver.*"/> 
+      <cat-item lemma="hê" tags="vblex"/> 
+      <cat-item lemma="hê" tags="vblex.*"/> 
+    </def-cat>
+    <def-cat n="verbser">
+      <cat-item tags="vbser"/>
+      <cat-item tags="vbser.*"/>
+    </def-cat>
+    <def-cat n="verbserpast">
+      <cat-item tags="vbser.past"/>
+    </def-cat>
     <def-cat n="verbnm"><!--verb no modal -->
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbser.*"/>
@@ -1278,7 +1290,33 @@
         </out>
      </action>
    </rule>
-
+   <rule comment="gewees het - have been; change 'have' in t2; lexicalised to ignore tagging errors"> 
+      <pattern>
+        <pattern-item n="prefix"/>
+        <pattern-item n="verbser"/>
+        <pattern-item n="verbhaver"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="have_been">
+	    <tags>
+	      <tag><lit-tag v="V"/></tag>
+	      <tag><lit-tag v="inf"/></tag>
+	    </tags>
+            <lu>
+              <lit v="have"/>
+              <lit-tag v="vbhaver"/>
+              <lit-tag v="2"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <lit v="be"/>
+              <lit-tag v="vbser.pp"/>
+            </lu>
+          </chunk>
+        </out>
+     </action>
+   </rule>
    <rule> 
       <pattern>
         <pattern-item n="prefix"/>
