@@ -56,6 +56,7 @@
     <sdef n="pro"     c="Proclitic"/>
     <sdef n="acr"     c="Acronym"/>
     <sdef n="ant"     c="Antroponym"/>
+    <sdef n="cog"     c="Cognomen"/>
     <sdef n="al"      c="Other / Otros"/>
     <sdef n="np"      c="Proper noun"/>
     <sdef n="adv"     c="Adverb"/>
@@ -2871,11 +2872,30 @@
 
     <!-- Proper Nouns -->
 
+    <pardef n="Wynand__np">
+      <e>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+    <pardef n="Anrie__np">
+      <e>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="van_der_Merwe__np">
       <e>
         <p>
           <l/>
-          <r><s n="np"/><s n="ant"/><s n="sg"/></r>
+          <r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -4933,6 +4953,8 @@
     <e lm="R"><i>R</i><par n="DNA__n"/></e> <!-- as in "Rand" -->
     <e lm="DNA"><i>DNA</i><par n="DNA__n"/></e>
     <e lm="ID"><i>ID</i><par n="DNA__n"/></e>
+    <e lm="UTC"><i>UTC</i><par n="DNA__n"/></e>
+    <e lm="ISBN"><i>ISBN</i><par n="DNA__n"/></e>
     <e lm="SAL"><i>SAL</i><par n="DNA__n"/></e> <!-- Suid-Afrikaanse Lugdiens  -->
     <e lm="EU"><i>EU</i><par n="DNA__n"/></e>
     <e lm="MIV"><i>MIV</i><par n="DNA__n"/></e>
@@ -5553,14 +5575,66 @@
     <!-- check these -->
     <e lm="van der Merwe"><i>van<b/>der<b/>Merwe</i><par n="van_der_Merwe__np"/></e> <!-- this is a name, not a loc -->
     <e lm="van Vuuren"><i>van<b/>Vuuren</i><par n="van_der_Merwe__np"/></e> <!-- this is a name, not a loc -->
+    <e lm="Smith"><i>Smith</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Warhol"><i>Warhol</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Hitler"><i>Hitler</i><par n="van_der_Merwe__np"/></e> 
+    <e lm="Shakespeare"><i>Shakespeare</i><par n="van_der_Merwe__np"/></e> 
+    <e lm="Dalí"><i>Dalí</i><par n="van_der_Merwe__np"/></e> 
+    <e lm="Stellenbosch"><i>Stellenbosch</i><par n="van_der_Merwe__np"/></e> 
+    <e lm="Botha"><i>Botha</i><par n="van_der_Merwe__np"/></e> 
+    <e lm="Mandela"><i>Mandela</i><par n="van_der_Merwe__np"/></e> 
+    <e lm="Stalin"><i>Staln</i><par n="van_der_Merwe__np"/></e> 
+    <e lm="Hughes"><i>Hughes</i><par n="van_der_Merwe__np"/></e> 
+    <e lm="Fischer"><i>Fischer</i><par n="van_der_Merwe__np"/></e> 
+
+    <e lm="Anrie"><i>Anrie</i><par n="Anrie__np"/></e> 
+    <e lm="Maria"><i>Maria</i><par n="Anrie__np"/></e> 
+    <e lm="Anne"><i>Anne</i><par n="Anrie__np"/></e> 
+    <e lm="Victoria"><i>Victoria</i><par n="Anrie__np"/></e> 
+    <e lm="Elizabeth"><i>Elizabeth</i><par n="Anrie__np"/></e> 
+
+    <e lm="Otto"><i>Otto</i><par n="Wynand__np"/></e> 
+    <e lm="Laurens"><i>Laurens</i><par n="Wynand__np"/></e> 
+    <e lm="Henry"><i>Henry</i><par n="Wynand__np"/></e> 
+    <e lm="Richard"><i>Richard</i><par n="Wynand__np"/></e> 
+    <e lm="Albert"><i>Albert</i><par n="Wynand__np"/></e> 
+    <e lm="Adriaan"><i>Adriaan</i><par n="Wynand__np"/></e> 
+    <e lm="Alexander"><i>Alexander</i><par n="Wynand__np"/></e> 
+    <e lm="Wynand"><i>Wynand</i><par n="Wynand__np"/></e> 
+    <e lm="James"><i>James</i><par n="Wynand__np"/></e> 
+    <e lm="Hendrik"><i>Hendrik</i><par n="Wynand__np"/></e> 
+    <e lm="George"><i>George</i><par n="Wynand__np"/></e> 
+    <e lm="John"><i>John</i><par n="Wynand__np"/></e> 
+    <e lm="Jean"><i>Jean</i><par n="Wynand__np"/></e> 
+    <e lm="Willem"><i>Willem</i><par n="Wynand__np"/></e> 
+    <e lm="William"><i>William</i><par n="Wynand__np"/></e> 
+    <e lm="Robert"><i>Robert</i><par n="Wynand__np"/></e> 
+    <e lm="Paul"><i>Paul</i><par n="Wynand__np"/></e> 
+    <e lm="Edward"><i>Edward</i><par n="Wynand__np"/></e> 
+    <e lm="Karl"><i>Karl</i><par n="Wynand__np"/></e> 
+    <e lm="Frank"><i>Frank</i><par n="Wynand__np"/></e> 
+    <e lm="Charles"><i>Charles</i><par n="Wynand__np"/></e> 
+    <e lm="Leonardo"><i>Leonardo</i><par n="Wynand__np"/></e> 
+    <e lm="David"><i>David</i><par n="Wynand__np"/></e> 
+    <e lm="Frederik"><i>Frederik</i><par n="Wynand__np"/></e> 
+    <e lm="Thomas"><i>Thomas</i><par n="Wynand__np"/></e> 
+    <e lm="Martin"><i>Martin</i><par n="Wynand__np"/></e> 
+    <e lm="Pierre"><i>Pierre</i><par n="Wynand__np"/></e> 
+    <e lm="Joseph"><i>Joseph</i><par n="Wynand__np"/></e> 
+    <e lm="Josep"><i>Josep</i><par n="Wynand__np"/></e> 
+    <e lm="Michael"><i>Michael</i><par n="Wynand__np"/></e> 
 
 
     <e lm="Engels"><i>Engels</i><par n="Afrikaans__n"/></e>
     <e lm="Afrikaans"><i>Afrikaans</i><par n="Afrikaans__n"/></e>
 
     <e lm="Gemenebest"><i>Gemenebest</i><par n="Engeland__np"/></e>
+    <e lm="Hamburg"><i>Hamburg</i><par n="Engeland__np"/></e>
     <e lm="Engeland"><i>Engeland</i><par n="Engeland__np"/></e>
     <e lm="Lesotho"><i>Lesotho</i><par n="Engeland__np"/></e>
+    <e lm="York"><i>York</i><par n="Engeland__np"/></e>
+    <e lm="Bremen"><i>Bremen</i><par n="Engeland__np"/></e>
+    <e lm="Kaapstad"><i>Kaapstad</i><par n="Engeland__np"/></e>
 
     <e lm="Noord-Afrika"><i>Noord-Afrika</i><par n="Engeland__np"/></e>
     <e lm="Noord-Amerika"><i>Noord-Amerika</i><par n="Engeland__np"/></e>
@@ -5571,6 +5645,27 @@
     <e lm="Balkan"><i>Balkan</i><par n="Engeland__np"/></e>
     <e lm="Oseanië"><i>Oseanië</i><par n="Engeland__np"/></e>
     <e lm="Australasië"><i>Australasië</i><par n="Engeland__np"/></e>
+    <e lm="Amerika"><i>Amerika</i><par n="Engeland__np"/></e>
+    <e lm="Stockholm"><i>Stockholm</i><par n="Engeland__np"/></e>
+    <e lm="Perth"><i>Perth</i><par n="Engeland__np"/></e>
+    <e lm="Kaapkolonie"><i>Kaapkolonie</i><par n="Engeland__np"/></e>
+    <e lm="Luxemburg"><i>Luxemburg</i><par n="Engeland__np"/></e>
+    <e lm="Hannover"><i>Hannover</i><par n="Engeland__np"/></e>
+    <e lm="Bordeaux"><i>Bordeaux</i><par n="Engeland__np"/></e>
+    <e lm="Brandenburg"><i>Brandenburg</i><par n="Engeland__np"/></e>
+    <e lm="Montreal"><i>Montreal</i><par n="Engeland__np"/></e>
+    <e lm="Carcassonne"><i>Carcassonne</i><par n="Engeland__np"/></e>
+    <e lm="Oslo"><i>Oslo</i><par n="Engeland__np"/></e>
+    <e lm="Monaco"><i>Monaco</i><par n="Engeland__np"/></e>
+    <e lm="Uruguay"><i>Uruguay</i><par n="Engeland__np"/></e>
+    <e lm="Potsdam"><i>Potsdam</i><par n="Engeland__np"/></e>
+    <e lm="Oxford"><i>Oxford</i><par n="Engeland__np"/></e>
+    <e lm="Hawaiï"><i>Hawaiï</i><par n="Engeland__np"/></e>
+    <e lm="Helsinki"><i>Helsinki</i><par n="Engeland__np"/></e>
+    <e lm="Jerusalem"><i>Jerusalem</i><par n="Engeland__np"/></e>
+    <e lm="Los Angeles"><i>Los<b/>Angeles</i><par n="Engeland__np"/></e>
+    <e lm="San Francisco"><i>San<b/>Francisco</i><par n="Engeland__np"/></e>
+    <e lm="San Diego"><i>San<b/>Diego</i><par n="Engeland__np"/></e>
 
 
     <e lm="Noord-Ierland"><i>Noord-Ierland</i><par n="Engeland__np"/></e>
@@ -5691,7 +5786,15 @@
     <e lm="Joego-Slawië"><i>Joego-Slawië</i><par n="Engeland__np"/></e>
     <e lm="VSA"><i>VSA</i><par n="Engeland__np"/></e>
     <e lm="SA"><i>SA</i><par n="Engeland__np"/></e>
+    <e lm="DDR"><i>DDR</i><par n="Engeland__np"/></e>
+    <e lm="KwaZulu-Natal"><i>KwaZulu-Natal</i><par n="Engeland__np"/></e>
+    <e lm="Zulu-Natal"><i>Zulu-Natal</i><par n="Engeland__np"/></e>
 
+    <e lm="Washington"><i>Washington</i><par n="Engeland__np"/></e>
+    <e lm="Frankfurt"><i>Frankfurt</i><par n="Engeland__np"/></e>
+    <e lm="Vermont"><i>Vermont</i><par n="Engeland__np"/></e>
+    <e lm="Transvaal"><i>Transvaal</i><par n="Engeland__np"/></e>
+    <e lm="Chicago"><i>Chicago</i><par n="Engeland__np"/></e>
     <e lm="Alaska"><i>Alaska</i><par n="Engeland__np"/></e>
     <e lm="Lapland"><i>Lapland</i><par n="Engeland__np"/></e>
     <e lm="Alexandrië"><i>Alexandrië</i><par n="Engeland__np"/></e>
@@ -15451,6 +15554,8 @@
     <e lm="Diets"><i>Diets</i><par n="dadelik__adj"/></e>
     <e lm="Duits"><i>Duits</i><par n="dadelik__adj"/></e>
     <e lm="Engels"><i>Engels</i><par n="dadelik__adj"/></e>
+    <e lm="Sowjets"><i>Sowjets</i><par n="dadelik__adj"/></e>
+    <e lm="Sowjet"><i>Sowjet</i><par n="dadelik__adj"/></e>
     <e lm="Eslands"><i>Eslands</i><par n="dadelik__adj"/></e>
     <e lm="Esties"><i>Esties</i><par n="dadelik__adj"/></e>
     <e lm="Estlands"><i>Estlands</i><par n="dadelik__adj"/></e>
@@ -15653,7 +15758,6 @@
     <e lm="Ryns"><i>Ryns</i><par n="dadelik__adj"/></e>
     <e lm="Saks"><i>Saks</i><par n="dadelik__adj"/></e>
     <e lm="Skots"><i>Skots</i><par n="dadelik__adj"/></e>
-    <e lm="Sowjets"><i>Sowjets</i><par n="dadelik__adj"/></e>
     <e lm="Thes"><i>Thes</i><par n="dadelik__adj"/></e>
     <e lm="Toulous"><i>Toulous</i><par n="dadelik__adj"/></e>
     <e lm="Transvaals"><i>Transvaals</i><par n="dadelik__adj"/></e>
