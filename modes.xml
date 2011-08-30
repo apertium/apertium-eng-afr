@@ -62,7 +62,7 @@
     </pipeline>
   </mode>
 
-  <mode name="en-parser" install="yes">
+  <mode name="en-parser" install="no">
     <pipeline>
       <program name="lt-proc">
         <file name="en-af.automorf.bin"/>
