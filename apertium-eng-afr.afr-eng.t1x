@@ -469,31 +469,73 @@
 
 
 
-
+    <!-- kan doen -> can do -->
     <rule comment="REGLA: VAUX VBLEX">
       <pattern>
         <pattern-item n="verbm"/>
         <pattern-item n="verbnm"/>
       </pattern>
       <action>
-            <out>
-	      <chunk name="vaux_vblex">
-	        <tags>
-		  <tag><lit-tag v="V"/></tag>
-		</tags>
-                <lu>
-                  <clip pos="1" side="tl" part="lem"/>
-                  <clip pos="1" side="tl" part="a_verb"/>
-                  <clip pos="1" side="tl" part="temps"/>
-                </lu>
-		<b/>
-		<lu>
-                  <clip pos="2" side="tl" part="lem"/>
-                  <clip pos="2" side="tl" part="a_verb"/>
-                  <clip pos="2" side="tl" part="temps"/>
-		</lu>
-	      </chunk>
-            </out>
+        <out>
+          <chunk name="vaux_vblex">
+            <tags>
+              <tag>
+                <lit-tag v="V"/>
+              </tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!-- het geskop -> had kicked -->
+    <rule comment="REGLA: VBHAVER VBLEX">
+      <pattern>
+        <pattern-item n="vbhaver"/>
+        <pattern-item n="vblex"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="temps"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_verb"/>
+            <clip pos="2" side="tl" part="temps"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <!-- het geskop -> kicked -->
+    <rule comment="REGLA: VBHAVER VBLEX">
+      <pattern>
+        <pattern-item n="vbhaver"/>
+        <pattern-item n="vblex"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="temps"/>
+          </lu>
+        </out>
       </action>
     </rule>
 
