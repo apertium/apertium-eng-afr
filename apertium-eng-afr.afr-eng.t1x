@@ -469,7 +469,7 @@
 
 
 
-
+    <!-- kan doen -> can do -->
     <rule comment="REGLA: VAUX VBLEX">
       <pattern>
         <pattern-item n="verbm"/>
