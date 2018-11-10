@@ -477,8 +477,8 @@
       </pattern>
       <action>
         <out>
-	        <chunk name="vaux_vblex">
-	          <tags>
+          <chunk name="vaux_vblex">
+            <tags>
               <tag>
                 <lit-tag v="V"/>
               </tag>
