@@ -502,8 +502,10 @@
     <!-- het geskop -> had kicked -->
     <rule comment="REGLA: VBHAVER VBLEX">
       <pattern>
-        <pattern-item n="vbhaver"/>
-        <pattern-item n="vblex"/>
+	<!-- this was "vbhaver" (nonexistent) change may be wrong -->
+        <pattern-item n="verbhaver"/>
+	<!-- this was "vblex" (nonexistent) change may be wrong -->
+        <pattern-item n="verbnm"/>
       </pattern>
       <action>
         <out>
@@ -525,8 +527,10 @@
     <!-- het geskop -> kicked -->
     <rule comment="REGLA: VBHAVER VBLEX">
       <pattern>
-        <pattern-item n="vbhaver"/>
-        <pattern-item n="vblex"/>
+	<!-- this was "vbhaver" (nonexistent) change may be wrong -->
+        <pattern-item n="verbhaver"/>
+	<!-- this was "vblex" (nonexistent) change may be wrong -->
+        <pattern-item n="verbnm"/>
       </pattern>
       <action>
         <out>
